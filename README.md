@@ -35,6 +35,20 @@ Each file also defines up to 12 custom commands that do various routines like ha
 
 Note that the `l`, `r`, `u`, and `d` commands are shorthand for taking one step in a direction, and `lf`, `rf`, `uf`, and `df` are the commands for holding a directional button for a certain number of frames.
 
+## Recording inputs
+
+Rather than writing commands by hand, if you want to modify the sequence or create a new one, you can use the `recordInputs` file in conjuction with the [bizhawk](https://tasvideos.org/BizHawk) emulator to record the inputs you make and then output them in a format that can be used in the scripts.  
+
+To record your inputs, first you must clear controller hotkeys, i.e. prevent the emulator from using your inputs as commands directly. You can do this through `Config -> Controllers ->  Misc -> Clear`.  You can load back the hotkeys later with `Misc -> Load Defaults` in the same menu.
+
+Then you must open the lua console through `Tools -> Lua Console -> Script -> Open Script`, where you then open the `recordInputs.lua` script.  Once the script starts running, it will record your inputs.
+
+The button hotkeys are listed in the `recordInputs.lua` file, but the most important two are the `lshift`, which outputs the list of formatted commands when you're done recording, and `rshift`, which adds a 60 frame waittime command.  The input recorder does NOT record idle time, meaning if you do not add in the wait times with `rshift`, it will just execute the commands rapidly one after the other with no breaks. 
+
+This causes the output list of inputs, and what you actually did when playing, to be different.  It can be easy to forget to add in the waittimes, which will cause issues when played back.  But as a benefit, there's no pressure to record the inputs on a timer.
+
+Other keys match the default for the emulator, the arrow keys for movement, `x`,`z`,`s`, `a` for `A`, `B`, `X`, `Y`, and `enter` for start.   
+
 # Notes
 
 There may be some volatility with the touch control, which is a required input at the very beginning of the game.  To advance, you must tap the middle of the screen, hitting the center of a pokeball.  This is a non-standard analog input, and is denoted in the code as `touch_middle`.  This only occurs once.
