@@ -2,6 +2,8 @@
 
 This repository contains a list of inputs that will beat Pokemon Platinum.  Using a combination of techniques and simulations, progress through the game is guarenteed. There is no RNG-manipulation involved, no frame-perfect inputs required, and the sequence of inputs is static and unchanging regardless of in-game occurences.
 
+You can find the simulator code [here](https://github.com/KeeyanGhoreshi/PlatinumSimulator)
+
 # Contents
 
 The inputs can be found in the `commands` directory.  Each file corresponds to a different part of the game, and they each flow into each other from 1 to 9.  There is also a helper file to alter the memory of the game for testing, and a file for recording inputs while playing.
