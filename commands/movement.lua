@@ -539,7 +539,7 @@ function movement.press_a(frames)
 end
 function movement.touch_middle(frames)
     press = frames or 1;
-    joypad.setanalog({TouchX=127,TouchY=97})
+    joypad.setanalog({["Touch X"] = 128, ["Touch Y"] = 96})
     movement.waitFrames(press, setJoypad,{ Touch=true})
     joypad.set({Touch=false})
     joypad.setanalog({TouchX=false,TouchY=false})
