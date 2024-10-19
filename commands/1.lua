@@ -31,7 +31,7 @@ custom4 = {
 
 custom5 = {
     {'w', 120},
-    {'spin', 32},
+    {'spin', 48},
     {'w', 360}, -- battle started
     {'l', 2},
     {'u', 2},
@@ -41,7 +41,7 @@ custom5 = {
 }
 custom6 = {
     {'w', 120},
-    {'spin', 32},
+    {'spin', 48},
     {'w', 360}, -- battle started
     {'l', 2},
     {'u', 2},
@@ -1187,7 +1187,7 @@ a = {
 {'save', '18-BeforeTraining'},
 
 {'custom1', 2},
-{'spin', 36}, -- enter fight 1
+{'spin', 112}, -- enter fight 1
 {'l', 2},
 {'u', 2},
 {'press_a', 1},
@@ -1208,7 +1208,7 @@ a = {
 {'w', 30},
 {'use_move', 2}, -- two mach punches take out defense curling geodudes
 {'press_b', 5},
-{'spin', 36}, -- enter fight 2
+{'spin', 112}, -- enter fight 2
 {'l', 2},
 {'u', 2},
 {'press_a', 1},
