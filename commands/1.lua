@@ -2,7 +2,7 @@ package.path = "./commands/?.lua;"
 console.clear()
 movement = loadfile('movement.lua')
 m = movement()
-
+scriptName = "Script1"
 
 math.randomseed(os.clock()*100000000000)
 
