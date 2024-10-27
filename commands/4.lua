@@ -2056,7 +2056,10 @@ a = {
 {'press_b', 1}, -- reset bike back to high speed gear... idk why I shifted it prior but I don't want to fix it
 {'lf', 180}, -- go back
 {'custom1', 34}, -- up and attem
-
+-- //breakpoint
+{'r', 5}, -- take a couple extra steps, miscalculated infernape's xp range 
+{'lf', 120}
+-- done
 {'w', 60}, -- go get infernape
 {'save', '24-AfterInfernapeDaycare'},
 
