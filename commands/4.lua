@@ -2058,7 +2058,7 @@ a = {
 {'custom1', 34}, -- up and attem
 -- //breakpoint
 {'r', 5}, -- take a couple extra steps, miscalculated infernape's xp range 
-{'lf', 120}
+{'lf', 120},
 -- done
 {'w', 60}, -- go get infernape
 {'save', '24-AfterInfernapeDaycare'},
