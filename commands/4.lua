@@ -4259,7 +4259,7 @@ a = {
 {'use_move', 1},
 {'press_b', 11}, 
 {'use_move', 1},
-{'press_b', 4}, -- // gained 550 + 610
+{'press_b', 20}, -- // gained 550 + 610
 
 {'u', 10}, -- go to breeder
 {'w', 60},
