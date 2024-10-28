@@ -7542,15 +7542,9 @@ b = {
     {'save', '38-ArrivedInLeague'};
 }
 
-if client.xpos() < 2200 then
-    id = 1
-else
-    id = 3
-end
-savestate.saveslot(id)
+
 client.unpause()
 client.unpause_av()
 m.executeOrders(a)
 client.pause_av()
 client.pause()
-savestate.saveslot(id + 1)
