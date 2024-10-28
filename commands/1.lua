@@ -4,7 +4,7 @@ movement = loadfile('movement.lua')
 m = movement()
 scriptName = "Script1"
 
-math.randomseed(os.clock()*100000000000)
+math.randomseed(os.time())
 
 
 run_daycare = {
