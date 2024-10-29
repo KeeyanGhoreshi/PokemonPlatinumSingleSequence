@@ -2172,7 +2172,7 @@ a = {
 {'use_move', 1},
 {'press_b', 11}, 
 {'use_move', 1},
-{'press_b', 4}, -- // gained 550 + 610
+{'press_b', 20}, -- // gained 550 + 610
 
 {'d', 2},
 {'r', 15},
@@ -4577,7 +4577,7 @@ a = {
 {'use_move', 1},
 {'press_b', 11}, 
 {'use_move', 1},
-{'press_b', 4}, -- // gained 550 + 610
+{'press_b', 20}, -- // gained 550 + 610
 
 {'u', 4}, -- leave rt 215
 {'w', 60},
