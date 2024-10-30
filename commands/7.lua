@@ -2026,6 +2026,8 @@ a = {
 {'u', 5},
 {'press_a', 1},
 {'w', 240},
+{'press_a', 2},
+{'w', 240},
 {'press_b', 11}, -- done
 
 {'w', 60}, -- start the fight with golbat girl, do standard taunt/safeguard/surf combo to handle it
@@ -2511,7 +2513,7 @@ a = {
 {'l', 3},
 {'u', 7},
 {'w', 60}, -- done // 15-BeforeSaturn
-{'save', '16-BeforeShopping'},
+{'save', '16-BeforeSaturn'},
 
 {'x', 15}, -- put soft sand on hippowdon
 {'w', 60},
