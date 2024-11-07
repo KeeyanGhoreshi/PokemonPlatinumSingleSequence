@@ -4042,12 +4042,35 @@ a = {
 
 {'custom6', 20}, -- 6
 {'custom7', 15},
+{'press_b', 1},
+{'w', 480},
+{'press_b', 1},
+{'w', 480},
+{'press_a', 1},
+{'w', 600},
+{'press_b', 1},
+{'w', 480},
+{'press_b', 1},
+{'w', 480},
+{'press_a', 1},
+{'w', 800},
 {'custom11', 1},
 
 {'custom6', 20}, -- 7
 {'custom7', 15}, -- //26-AfterGolduckSpatkEvs
 {'save', '33-AfterGolduckSpAtkEvs'},
-
+{'press_b', 1},
+{'w', 480},
+{'press_b', 1},
+{'w', 480},
+{'press_a', 1},
+{'w', 600},
+{'press_b', 1},
+{'w', 480},
+{'press_b', 1},
+{'w', 480},
+{'press_a', 1},
+{'w', 800},
 {'r', 2}, -- go to solaceon
 {'d', 2},
 {'w', 540},
