@@ -2616,9 +2616,9 @@ a = {
 {'press_a', 1},
 {'d', 1},
 {'use_move', 1},
-{'press_b', 14},
+{'press_b', 16},
 {'use_move', 1},
-{'press_b', 21},
+{'press_b', 25},
 {'press_a', 1},
 {'u', 1},
 {'w', 60},
@@ -2627,9 +2627,9 @@ a = {
 {'press_a', 1},
 {'d', 1},
 {'use_move', 2},
-{'press_b', 6}, -- done battling, eevee at level 30 now
+{'press_b', 25}, -- done battling, eevee at level 30 now
 {'save', '16-AfterSecondTrainer'},
-
+{'w', 120},
 {'r', 4}, -- reset and heal at pcenter
 {'u', 5},
 {'w', 540},
