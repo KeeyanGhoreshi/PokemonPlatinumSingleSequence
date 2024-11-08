@@ -659,7 +659,7 @@ end
 function movement.save(fileName)
     id = client.xpos()
     seed = p.getLCRNG()
-    savestate.save('../../../NDS/State/Platinum/autosaves/'.. scriptName .. '/' .. id .. '_' .. '_' .. fileName .. "_" .. seed .. '.State')
+    savestate.save('../autosaves/'.. scriptName .. '/' .. id .. '_' .. '_' .. fileName .. "_" .. seed .. '.State')
 end
 
 function movement.executeOrders(list)
