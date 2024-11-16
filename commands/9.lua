@@ -171,7 +171,7 @@ custom6 = {
 {'press_a', 3},
 {'w', 1440}, -- done
 }
-
+-- perfect the way it is *chef's kiss*
 a = {
     {'save', '00-StartOfScript9'},
     {'l', 8}, -- heal and get hippo from pc

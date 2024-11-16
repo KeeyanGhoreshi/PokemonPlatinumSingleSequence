@@ -257,7 +257,7 @@ custom12 = {
     {'x', 30},
     {'w', 600},
 }
----vf scale=iw*4:ih*4 -crf 18 -sws_flags neighbor -pix_fmt yuv420p -b:a 384k -f mp4
+
 a = {
     {'save', '00-StartOfScript8'},
     {'x', 15}, -- go to veilstone department store
@@ -1358,11 +1358,24 @@ a = {
 {'rf', 3600}, -- align against the tree, or engage in battle immediately, doesn't matter
 {'press_b', 10},
 {'w', 1200}, -- battle starts with skier
-
+{'save', '06b-BeforeSkier'},
 {'press_a', 1}, -- KO swinub with surf, and snover with sludge bomb, mind the level up for roselia
 {'use_move', 1},
 {'w', 480},
+{'press_a', 15}, -- handle pastoria alt line
+
+{'d', 1}, -- realign shift screen
 {'press_a', 1},
+{'r', 2},
+{'press_a', 1},
+{'d', 2},
+{'r', 3},
+{'press_a', 1},
+{'w', 60},
+{'l', 2},
+{'u', 2},
+{'press_b', 1}, -- sync
+
 {'w', 240},
 {'r', 1},
 {'press_a', 2},
@@ -1370,8 +1383,8 @@ a = {
 {'press_a', 1},
 {'r', 1},
 {'d', 1},
-{'use_move', 1},
-{'w', 480},
+{'use_move', 1}, 
+{'w', 480}, -- old aromatherapy avoidance
 {'press_a', 2},
 {'w', 900},
 {'press_b', 1},
@@ -1424,6 +1437,13 @@ a = {
 {'r', 1},
 {'d', 1},
 {'use_move', 1},
+{'w', 120},
+{'press_b', 2}, -- level up prompts
+{'w', 600},
+{'press_b', 1}, -- avoid aromatherapy // dealing with pastoria alt line
+{'w', 600},
+{'press_a', 1}, 
+{'w', 300},
 {'press_b', 7}, -- done
 
 {'r', 3}, -- go grab max potion and ice BEAM
@@ -3583,8 +3603,19 @@ a = {
 {'w', 480},
 {'press_a', 2},
 {'w', 460},
-{'press_a', 1},
+{'press_a', 5},
 {'w', 240},
+{'d', 1}, -- realign shift screen // handle pastoria alt
+{'press_a', 1},
+{'r', 2},
+{'press_a', 1},
+{'d', 2},
+{'r', 3},
+{'press_a', 1},
+{'w', 60},
+{'l', 2},
+{'u', 2},
+{'press_b', 1}, -- sync
 {'r', 1},
 {'d', 1},
 {'press_a', 2},
@@ -3644,7 +3675,18 @@ a = {
 {'d', 1},
 {'use_move', 1}, -- sucker punch to take back the sticky barb
 {'w', 720},
+{'press_a', 15},
+{'d', 1}, -- realign shift screen // pastoria alt
 {'press_a', 1},
+{'r', 2},
+{'press_a', 1},
+{'d', 2},
+{'r', 3},
+{'press_a', 1},
+{'w', 60},
+{'l', 2},
+{'u', 2},
+{'press_b', 1}, -- sync
 {'w', 240},
 
 {'r', 1},
@@ -4590,6 +4632,17 @@ a = {
 {'press_a', 2},
 {'w', 480},
 {'press_a', 1},
+{'d', 1}, -- realign shift screen // handle alt pastoria
+{'press_a', 1},
+{'r', 2},
+{'press_a', 1},
+{'d', 2},
+{'r', 3},
+{'press_a', 1},
+{'w', 60},
+{'l', 2},
+{'u', 2},
+{'press_b', 1}, -- sync
 {'w', 240},
 {'r', 1},
 {'d', 2},
@@ -4597,7 +4650,7 @@ a = {
 {'w', 1440},
 {'press_a', 1},
 {'use_move', 1},
-{'press_b', 12}, -- done
+{'press_b', 24}, -- done
 
 {'d', 1}, -- go to next trainer
 {'w', 60},

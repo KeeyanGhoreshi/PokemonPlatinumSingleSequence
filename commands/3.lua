@@ -2138,6 +2138,7 @@ a = {
 {'w', 120},
 {'press_a', 1},
 {'w', 720},
+{'press_b', 20}, -- handle extra frames
 {'l', 1},
 {'grass_cycle', 1},
 {'l', 2},
@@ -2230,18 +2231,21 @@ a = {
 {'w', 540},
 {'r', 24},
 {'w', 540},
-{'r', 15},
-{'u', 2},
-{'l', 5},
+{'save', '12c-InOreburgh'},
+
+{'r', 9},
 {'d', 12},
-{'r', 10},
+{'r', 14},
+{'d', 3},
+{'r', 4},
 {'w', 60},
-{'press_b', 4},
-{'r', 24},
-{'u', 36},
-{'r', 8},
-{'u', 1},
-{'w', 60},
+{'press_b', 8},
+{'r', 16},
+{'u', 38},
+{'r', 9},
+{'u', 3},
+{'w', 120},
+
 {'y', 30},
 {'w', 60},
 {'uf', 360},
@@ -2297,7 +2301,6 @@ a = {
 {'press_a', 1},
 {'press_b', 11}, -- done purchasing
 {'save', '13-AfterShopping'},
-
 {'d', 3}, -- go back down 206
 {'r', 2},
 {'d', 2},
@@ -2446,9 +2449,11 @@ a = {
 {'press_b', 5}, -- done getting eevee into position
 {'u', 2}, -- go fight first gastly guy
 {'w', 540},
+{'save', '13a-GymPositioning'},
 {'u', 2},
 {'r', 2},
 {'w', 27000}, -- guarenteed to be lookin at us
+{'save', '13b-BeforeFirstTrainer'},
 {'press_b', 5}, -- fight boy trainer
 {'w', 1620},
 {'press_a', 1},
@@ -2459,10 +2464,10 @@ a = {
 {'use_move', 2},
 {'w', 180},
 {'press_b', 2}, -- done
-{'l', 2}, -- get outta here 
-{'d', 6},
+{'rf', 6000}, -- deal with pathing bug
+{'uf', 6000},
 {'w', 540},
-{'df', 1200}, -- up against the woman with a baby
+{'df', 1600}, -- up against the woman with a baby
 {'w', 60}, -- go heal off sucker punch + aftermath damage
 {'u', 10},
 {'l', 35},
@@ -2611,6 +2616,7 @@ a = {
 
 {'d', 1}, -- wait for him to walk into flashlight // for some reason triggering a fight with these stupid npcs by way of flashlight ruins their rectangle pathing... this guy is supposed to be stuck on the x axis at a distance of 3, but after triggering the battle with a flashlight he just wanders around in a 5x5 box...
 {'w', 24000},
+{'save', '15b-BeforeSecondTrainer'}
 {'press_b', 7},
 {'w', 1260},
 {'press_a', 1},
