@@ -272,7 +272,9 @@ a = {
 {'press_a', 1},
 {'w', 60},
 {'press_a', 1},
-{'w', 1600}, -- double battle wait time :O
+{'w', 2400}, -- double battle wait time :O
+{'press_a', 40}, -- handle monferno xp edge case 
+{'press_b', 12}, -- return to menu
 {'press_a', 1},
 {'w', 60},
 {'d', 1},
@@ -2584,12 +2586,6 @@ a = {
 
 }
 
-b = {
-
-}
-
-c = {
-}
 client.unpause()
 client.unpause_av()
 

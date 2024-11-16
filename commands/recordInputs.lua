@@ -1,4 +1,4 @@
-package.path = "./testscripts/?.lua;"
+package.path = "./commands/?.lua;"
 movement = loadfile('movement.lua')
 m = movement()
 
@@ -65,10 +65,10 @@ local inputMap = {
     ["B"] = {"uf", 360},
 }
 local hotkeyMap = {
-    ["LeftShift"] = flushInputs,
+    ["Alt"] = flushInputs,
     ["LeftCtrl"] = dumpInputs,
-    ["RightCtrl"] = addWait,
-    ["RightShift"] = addShortWait,
+    ["Ctrl"] = addWait,
+    ["Shift"] = addShortWait,
     ["V"] = toggleAv
 
 }

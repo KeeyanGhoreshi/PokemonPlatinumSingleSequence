@@ -131,9 +131,9 @@ custom6 = {
     {'w', 540}, -- inside maniac tunnel
 }
 a = {
---     -- BREAKPOINT
---     -- TODO : Need to catch something else besides the valley mon, because we need that shellos later
---     -- can easily make do with a ravaged path mon, assuming we havne't used ravaged path for training up till now
+    -- BREAKPOINT
+    -- TODO : Need to catch something else besides the valley mon, because we need that shellos later
+    -- can easily make do with a ravaged path mon, assuming we havne't used ravaged path for training up till now
     {'save', '00-StartOfScipt4'},
     {'d', 3}, -- go to valley windworks
     {'l', 34},
@@ -599,7 +599,10 @@ a = {
 {'w', 60},
 {'press_a', 3},
 {'w', 1440},
-{'press_b', 8}, -- 04 // lvl 20 togetic
+{'press_a', 8}, -- 04 // lvl 20 togetic
+{'w', 3600}, -- this isn't necessary, I just don't wanna do the fantina gym cycle again. Avoids having to force friendship increase if you skip the fantina cycle to save yourself time in dev.
+{'press_a', 16},
+{'press_b', 8}, 
 {'save', '07-DoneWithJogger'},
 
 {'r', 6}, -- go to final rng consumer
@@ -1687,6 +1690,7 @@ a = {
 {'r', 5},
 {'u', 6},
 {'w', 540},
+{'save', 'dev-InTheRuins'},
 {'use_repel', 1}, -- in the ruins
 
 
@@ -1776,6 +1780,7 @@ a = {
 {'press_b', 5},
 {'use_repel', 1}, -- double repel to deal with turning trainer earlier
 {'u', 1},
+{'press_b', 5}, -- oops!
 {'use_repel', 1},
 {'l', 1}, -- get green shard from hiker guy
 {'w', 60},

@@ -1996,7 +1996,7 @@ a = {
 {'press_a', 1},
 {'d', 1},
 {'use_move', 1}, -- done
-{'press_b', 19},
+{'press_b', 35}, -- handle vaporeon xp from alt pastoria line
 {'l', 13}, -- go to skier
 {'w', 60},
 
@@ -2279,7 +2279,7 @@ a = {
 {'w', 60},
 {'l', 2},
 {'w', 60}, -- idling
-
+{'save', '12b-BeforeGlaceonLady'},
 {'x', 15}, -- vapor to front
 {'w', 60},
 {'press_a', 1},
@@ -2302,7 +2302,19 @@ a = {
 {'press_a', 1},
 {'use_move', 1}, -- surf KOs
 {'w', 900},
+{'press_a', 16}, -- handle roselia level up here// 
+{'d', 1}, -- realign shift screen
 {'press_a', 1},
+{'r', 2},
+{'press_a', 1},
+{'d', 2},
+{'r', 3},
+{'press_a', 1},
+{'w', 60},
+{'l', 2},
+{'u', 2},
+{'press_b', 1}, -- sync
+{'w', 180},
 {'w', 60},
 {'r', 1},
 {'d', 1},
