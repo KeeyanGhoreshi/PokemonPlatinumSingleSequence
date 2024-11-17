@@ -2616,7 +2616,7 @@ a = {
 
 {'d', 1}, -- wait for him to walk into flashlight // for some reason triggering a fight with these stupid npcs by way of flashlight ruins their rectangle pathing... this guy is supposed to be stuck on the x axis at a distance of 3, but after triggering the battle with a flashlight he just wanders around in a 5x5 box...
 {'w', 24000},
-{'save', '15b-BeforeSecondTrainer'}
+{'save', '15b-BeforeSecondTrainer'},
 {'press_b', 7},
 {'w', 1260},
 {'press_a', 1},
