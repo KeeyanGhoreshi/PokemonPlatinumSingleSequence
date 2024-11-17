@@ -4,9 +4,6 @@ movement = loadfile('movement.lua')
 m = movement()
 scriptName = "Script1"
 
-math.randomseed(os.clock()*100000000000)
-
-
 run_daycare = {
     {"runR", 120},
     {"runL", 120},
@@ -456,10 +453,12 @@ a = {
 
     {'u', 3},
     {'l', 2}, -- enter grass
+    {'w', 30},
     -- start training.  Reach lvl 9, fastest in 12 battles
-    {'wild_train_cycle', 12},
+    {'wild_train_cycle', 11},
+    {'save', '05b-BeforeLeveling'},
     {'w', 60},
-    {'wild_train_cycle_2', 6}, -- all parallel universes not at lvl 9
+    {'wild_train_cycle_2', 7}, -- all parallel universes not at lvl 9
     -- max discrepancy can be 24xp
     {'u', 2},
     {'press_a', 1},

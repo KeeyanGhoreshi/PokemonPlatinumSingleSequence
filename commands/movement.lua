@@ -92,7 +92,8 @@ wild_train_cycle = {
     {'d', 1},
     {'l', 29},
     {'u', 2},
-    {'l', 2},    
+    {'l', 2},
+    {'w', 30},
 }
 use_repel = {
     {'w', 60},
@@ -115,7 +116,7 @@ wild_train_cycle_2 = {
     {'press_a', 1}, -- use move first time
     {'w', 180},
     {'press_a', 1},
-    {'w', 900},
+    {'w', 1200},
     {'press_b', 1},
     {'w', 360},
     {'press_b', 1},
@@ -127,7 +128,7 @@ wild_train_cycle_2 = {
     {'press_a', 1}, -- use move second time
     {'w', 360},
     {'press_a', 1},
-    {'w', 900},
+    {'w', 1200},
     {'press_b', 1},
     {'w', 360},
     {'press_b', 1},
@@ -185,6 +186,7 @@ wild_train_cycle_2 = {
     {'l', 28},
     {'u', 2},
     {'l', 3},
+    {'w', 30},
 }
 battle_setup = {
     {'w',500},
