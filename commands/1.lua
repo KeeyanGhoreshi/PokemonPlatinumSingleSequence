@@ -28,7 +28,7 @@ custom4 = {
 
 custom5 = {
     {'w', 120},
-    {'spin', 48},
+    {'spin', 50},
     {'w', 360}, -- battle started
     {'l', 2},
     {'u', 2},
@@ -38,18 +38,18 @@ custom5 = {
 }
 custom6 = {
     {'w', 120},
-    {'spin', 48},
+    {'spin', 50},
     {'w', 360}, -- battle started
     {'l', 2},
     {'u', 2},
     {'press_a', 1},
-    {'w', 180},
+    {'w', 360},
     {'press_a', 1},
-    {'w', 900},
+    {'w', 1200},
     {'press_b', 1},
-    {'w', 180},
+    {'w', 360},
     {'press_b', 1},
-    {'w', 180},
+    {'w', 360},
     {'d', 1}, -- realign against wall
 }
 a = {
