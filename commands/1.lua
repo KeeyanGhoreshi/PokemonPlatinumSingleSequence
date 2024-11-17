@@ -1194,9 +1194,11 @@ a = {
 {'l', 14},
 {'w', 540}, -- in cave for last bit of training to hit lvl 18
 {'save', '18-BeforeTraining'},
-
-{'custom1', 2},
-{'spin', 112}, -- enter fight 1
+{'u', 1},
+{'custom1', 1},
+{'u', 1},
+{'w', 30},
+{'spin_fast', 112}, -- enter fight 1
 {'l', 2},
 {'u', 2},
 {'press_a', 1},
@@ -1216,8 +1218,33 @@ a = {
 {'x', 15},
 {'w', 30},
 {'use_move', 2}, -- two mach punches take out defense curling geodudes
-{'press_b', 5},
-{'spin', 112}, -- enter fight 2
+{'press_b', 15},
+{'l', 1}, 
+{'w', 30},
+{'spin_fast', 112}, -- enter fight 2
+{'l', 2},
+{'u', 2},
+{'press_a', 1},
+{'w', 60},
+{'r', 1},
+{'d', 1},
+{'w', 60},
+{'use_move', 1}, -- use return to KO zubats and psyducks
+{'w', 60},
+{'press_b', 15}, -- in case of level up now
+{'press_a', 1},
+{'w', 60},
+{'x', 15}, -- menu prevents motion
+{'w', 30},
+{'u', 1},
+{'w', 30},
+{'x', 15},
+{'w', 30},
+{'use_move', 2}, -- two mach punches take out defense curling geodudes
+{'press_b', 15},
+{'l', 1}, 
+{'w', 30},
+{'spin_fast', 112}, -- enter fight 1
 {'l', 2},
 {'u', 2},
 {'press_a', 1},
@@ -1237,7 +1264,7 @@ a = {
 {'x', 15},
 {'w', 30},
 {'use_move', 2}, -- two mach punches take out defense curling geodudes
-{'press_b', 5},
+{'press_b', 12},
 {'custom1', 1},
 {'custom3', 3},
 {'custom2', 1},
