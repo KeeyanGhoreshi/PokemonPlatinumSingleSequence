@@ -2488,7 +2488,6 @@ a = {
     {'w', 720},
     {'press_a', 6},
     {'w', 900},
-    
     {'lf', 60},
     {'bike_slide', 10},
     {'lf', 300}, -- wait for her to see us (or we talked to her)
@@ -2498,9 +2497,9 @@ a = {
 {'press_a', 1},
 {'w', 1440},
 {'use_move', 1}, -- level up togepi and monferno
-{'press_b', 26}, -- get through prompts
+{'press_b', 25}, -- get through prompts
 {'use_move', 1},
-{'press_b', 8},
+{'press_b', 25},
 {'use_move', 1},
 {'w', 540}, -- finish fight
 {'press_a', 2}, -- togepi levels up again

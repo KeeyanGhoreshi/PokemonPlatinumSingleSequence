@@ -1650,8 +1650,8 @@ a = {
 {'press_a', 5},
 {'w', 1440},
 {'press_a', 1},
-{'use_move', 6}, -- eevee will level up, have to push through buneary using endure 
-{'press_a', 19}, -- mashing a will learn quick attack in place of tackle just like we want anyway
+{'use_move', 6}, -- eevee will level up, have to push through buneary using endure // eevee no longer levels up here
+{'press_a', 19}, -- mashing a will learn quick attack in place of tackle just like we want anyway // we no longer learn quick attack here
 {'press_b', 12},
 {'w', 180}, -- done with buneary trainer
 {'r', 3}, -- leave wayward (again)
@@ -1662,7 +1662,7 @@ a = {
 {'d', 1},
 {'r', 5},
 {'w', 60},
-{'press_a', 1},
+{'press_a', 1}, -- get double team tm
 {'press_b', 12},
 {'l', 4},
 {'u', 16},
