@@ -363,7 +363,7 @@ a = {
     {'r', 1},
     {'w', 60},
     {'d', 9},
-    {'u', 10},
+    {'u', 9}, -- iron from jogger scott was ethereal this whole time 
     {'press_a', 2},
     {'w', 180},
     {'press_a', 1},
@@ -2430,7 +2430,18 @@ a = {
     {'d', 1},
     {'use_move', 1},
     {'w', 60},
+    {'press_a', 18}, -- handle xp edge case (no jogger, middling xp break)
+    {'d', 1}, -- realign shift screen
     {'press_a', 1},
+    {'r', 2},
+    {'press_a', 1},
+    {'d', 2},
+    {'r', 3},
+    {'press_a', 1},
+    {'w', 60},
+    {'l', 2},
+    {'u', 2},
+    {'press_b', 1}, -- sync
     {'w', 180},
     {'d', 2},
     {'r', 1},
