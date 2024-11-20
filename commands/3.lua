@@ -145,6 +145,7 @@ custom7 = {
     {'u', 2},
     {'use_move', 1},
     {'l', 1}, -- realign on teleport
+    {'w', 30}, -- bump settling
     {'d', 1},
     {'r', 1},
     {'use_move', 1}, -- run away
@@ -2673,6 +2674,7 @@ a = {
 {'d', 7},
 {'l', 4},
 {'u', 2}, -- into grass
+{'save', '16b-BeforeFriendshipReduction'},
 {'custom7', 6},
 {'d', 1},
 {'grass_cycle', 1},

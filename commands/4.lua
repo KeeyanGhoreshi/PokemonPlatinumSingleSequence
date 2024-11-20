@@ -130,6 +130,53 @@ custom6 = {
     {'l', 3},
     {'w', 540}, -- inside maniac tunnel
 }
+custom7 = {
+    {'x', 15},
+    {'w', 60},
+    {'press_a', 1},
+    {'w', 300},
+    {'r', 1},
+    {'d', 2},
+    {'w', 60},
+    {'press_a', 1},
+    {'d', 2},
+    {'w', 60},
+    {'press_a', 1},
+    {'d', 1},
+    {'w', 60},
+    {'press_a', 1},
+    {'w', 240},
+    {'press_b', 9},
+    {'w', 60},
+    {'x', 15},
+    {'w', 60},
+    {'d', 1},
+    {'press_a', 1},
+    {'w', 240},
+    {'u', 17},
+    {'d', 12},
+    {'w', 60},
+    {'press_a', 1},
+    {'w', 240},
+    {'d', 1},
+    {'w', 60},
+    {'press_a', 1},
+    {'w', 300},
+    {'press_a', 1},
+    {'w', 360},
+    {'press_b', 1},
+    {'w', 180},
+    {'u', 1},
+    {'w', 60},
+    {'press_b', 8},
+    {'w', 120},
+    {'x', 15},
+    {'w', 120},
+    {'u', 1},
+    {'w', 60},
+    {'press_b', 4},
+
+}
 a = {
     -- BREAKPOINT
     -- TODO : Need to catch something else besides the valley mon, because we need that shellos later
@@ -191,7 +238,6 @@ a = {
     {'u', 1},
     {'l', 1}, -- in grass
     {'save', '01-BeforeCatchingValleyMon'},
-    {'set_mem', 115128},
     {'spin_fast', 40}, -- look for wild
     {'w', 100}, 
     {'l', 2},
@@ -839,7 +885,7 @@ a = {
 {'w', 120},
 {'press_b', 12}, -- done managing items and lead position
 {'save', '10-BeforeMail'},
-
+{'custom7', 1},
 {'x', 15}, -- setup mail /// accidentally bought an airmail, too lazy to fix it, hopefully we won't miss that $50 :/  
 {'w', 60},
 {'d', 1},
