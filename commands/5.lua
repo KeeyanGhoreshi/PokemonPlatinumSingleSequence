@@ -124,7 +124,7 @@ a = {
     {'press_a', 1},
     {'d', 1},
     {'use_move', 1},
-    {'press_b', 13}, -- done with fight
+    {'press_b', 18}, -- done with fight // wait a bit longer in case we critted
     {'save', '01-DoneWithRival'},
 
     {'r', 7}, -- go heal
