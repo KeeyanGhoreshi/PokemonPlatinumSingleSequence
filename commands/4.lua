@@ -5595,7 +5595,7 @@ a = {
 {'x', 15},
 {'w', 60},
 {'d', 27},
-{'u', 7},
+{'u', 1}, -- ethereal iron no longer exists
 {'w', 60},
 {'press_a', 2},
 {'w', 180},

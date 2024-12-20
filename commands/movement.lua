@@ -664,12 +664,23 @@ function movement.save(fileName)
     savestate.save('../autosaves/'.. scriptName .. '/' .. id .. '_' .. '_' .. fileName .. "_" .. seed .. '.State')
 end
 
-function movement.executeOrders(list)
+function movement.executeOrders(list, startFrom)
+    locked = true
+    if startFrom == nil then
+        locked = false
+    end
+
     for i,v in ipairs(list) do
-        if v[1] == 'r' or v[1] == 'l' or v[1] == 'd' or v[1] == 'u' then 
-            movement.moveTiles(v[1],v[2])
+        if locked then
+            if v[2] == startFrom then
+                locked = false
+            end
         else
-            movement[v[1]](v[2])
+            if v[1] == 'r' or v[1] == 'l' or v[1] == 'd' or v[1] == 'u' then 
+                movement.moveTiles(v[1],v[2])
+            else
+                movement[v[1]](v[2])
+            end
         end
     end
 end
