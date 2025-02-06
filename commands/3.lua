@@ -2345,7 +2345,7 @@ a = {
 {'w', 360},
 {'press_b', 8},
 {'w', 1620}, -- fight staravia trainer now that we have infernape
-{'press_a', 2},
+{'press_a', 1},
 {'d', 1},
 {'use_move', 1},
 {'w', 180},
@@ -3771,6 +3771,6 @@ b = {
 
 client.unpause()
 client.unpause_av()
-m.executeOrders(a)
+m.executeOrders(a,"13-AfterShopping")
 client.pause_av()
 client.pause()
