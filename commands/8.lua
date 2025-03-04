@@ -4516,11 +4516,11 @@ a = {
 {'press_a', 1},
 {'r', 1},
 {'use_move', 1},
+{'press_b', 24},
+{'use_move', 1},
 {'press_b', 18},
 {'use_move', 1},
-{'press_b', 13},
-{'use_move', 1},
-{'press_b', 13}, -- done //19-AfterFirstTrainer
+{'press_b', 18}, -- done //19-AfterFirstTrainer
 {'save', '32-AfterFirstTrainer'},
 {'l', 2}, -- go upstairs and teach infernape strength
 {'u', 7},
@@ -7598,6 +7598,6 @@ b = {
 
 client.unpause()
 client.unpause_av()
-m.executeOrders(a)
+m.executeOrders(a, '31-BeforeFirstTrainer')
 client.pause_av()
 client.pause()
