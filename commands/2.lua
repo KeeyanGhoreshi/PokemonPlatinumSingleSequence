@@ -339,7 +339,16 @@ a = {
     -- this gives us the HP EVs needed to survive Mars' Purugly fake out and scratch crits
     {'u', 3}, -- start lake verity loop
     {'r', 2}, -- into grass
-    {'custom5', 25}, -- use up flame wheels
+    {'custom5', 24}, -- use up flame wheels
+    -- need to avoid alignment movements prior to move switch
+    {'w', 30},
+    {'spin', 48},
+    {'w', 900}, -- battle started
+    {'l', 2},
+    {'u', 2},
+    {'use_move', 1},
+    {'press_b', 15},
+    {'save', '02a-AfterFlameWheel'},
     {'x', 15}, -- switch position of moves
     {'w', 60},
     {'u', 1},
@@ -356,8 +365,19 @@ a = {
     {'w', 15},
     {'press_a', 1},
     {'press_b', 9}, -- done
-    {'custom5', 30},
-
+    {'u', 1}, -- realign against wall
+    {'w', 30},
+    {'r', 1}, -- prevent wall bump movement
+    {'custom5', 29},
+    -- need to avoid alignment movements prior to move switch
+    {'w', 30},
+    {'spin', 48},
+    {'w', 900}, -- battle started
+    {'l', 2},
+    {'u', 2},
+    {'use_move', 1},
+    {'press_b', 15},
+    {'save', '02b-AfterMachPunch'},
     {'x', 15}, -- switch position of moves
     {'w', 60},
     {'press_a', 1},
@@ -373,11 +393,14 @@ a = {
     {'w', 15},
     {'press_a', 1},
     {'press_b', 10},
+    {'u', 1}, -- realign against wall
+    {'w', 30},
+    {'r', 1}, -- prevent wall bump movement
     {'custom5', 15}, -- done with training
     {'save', '03-AfterTraining'},
 
     -- breakpoint for divergence
-    {'custom4', 1},
+    {'custom4', 2},
     {'l', 2},
     {'w', 60},
     {'d', 8},

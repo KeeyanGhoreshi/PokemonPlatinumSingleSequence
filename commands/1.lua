@@ -779,7 +779,7 @@ a = {
     {'press_a', 3},
     {'press_b', 4}, -- should be level 12 in most PUs
     {'w', 720},
-    {'use_move', 1},
+    {'use_move', 2},
     {'press_b', 18}, -- go through level up prompt
     {'w', 60}, -- 29 ss
     {'r', 1}, 
@@ -1370,5 +1370,6 @@ client.unpause()
 client.unpause_av()
 
 m.executeOrders(a)
+
 client.pause_av()
 client.pause()
