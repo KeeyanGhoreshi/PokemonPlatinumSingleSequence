@@ -2356,7 +2356,7 @@ a = {
 {'d', 16},
 {'w', 600},
 {'l', 3},
-{'d', 2},
+{'d', 3}, -- down an extra time to enter the door
 {'w', 540},
 {'d', 10},
 {'w', 540}, -- out of route
