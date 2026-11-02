@@ -1720,8 +1720,7 @@ a = {
 {'d', 1},
 {'use_move', 1},
 -- BREAKPOINT
-{'press_a', 20}, -- learn quick attack
-{'press_b', 10},
+{'press_a', 30}, -- learn quick attack (A only: spare B taps toggle the bike gear)
 -- END BREAKPOINT
 {'w', 900}, -- slide back down bike route
 {'uf', 2000}, -- hold up to go back up the route into eterna
