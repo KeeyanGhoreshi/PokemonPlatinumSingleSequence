@@ -1390,7 +1390,7 @@ a = {
 {'w', 180},
 {'l', 1},
 {'w', 60},
-{'l', 2},
+{'l', 1},
 {'w', 60},
 {'l', 1},
 {'w', 60},
@@ -1996,11 +1996,11 @@ a = {
         {'d', 1},
         {'press_a', 1}, 
         {'w', 540},
-        {'l', 2},
+        {'l', 1},
         {'w', 60},
         {'l', 1},
         {'w', 60},
-        {'l', 2},
+        {'l', 1},
         {'w', 60},
         {'press_a', 2},
         {'w', 180},
@@ -2430,7 +2430,7 @@ a = {
     {'w', 180},
     {'l', 1},
     {'w', 60},
-    {'l', 2},
+    {'l', 1},
     {'w', 60},
     {'d', 5},
     {'press_a', 1},
@@ -2515,7 +2515,8 @@ a = {
     {'bike_slide', 10},
     {'lf', 300}, -- wait for her to see us (or we talked to her)
     {'bike_slide', 1}, -- retry, if we wait correct time (or close to it) it should work this time if we bumped the previous try
-    {'press_a', 1}, -- fight starly girl
+    {'lf', 399}, -- extra left before talking (keeps the starly girl battle from being skipped)
+{'press_a', 1}, -- fight starly girl
 {'w', 60},
 {'press_a', 1},
 {'w', 1440},
